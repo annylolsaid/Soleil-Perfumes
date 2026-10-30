@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(246, 255, 254);
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 167, 194);
+    height: 40%;
+    width: 100%;
+}
+
+.header__titulo {
+    color: rgb(128, 34, 34);
+}
+
+.header__item {
+    padding: 15px;
+    color: rgb(193, 77, 77);
+    
+}
+
+.header__item:hover {
+    color: rgb(105, 28, 28);
+    transition: 0.8s;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%
+}
+
+.card {
+    height: 20%;
+    width: 30%;
+    background-color: bisque;
+    margin-top: 10%;
+    gap: 10px;
+    border-radius: 10%;
+    padding: 20px;
+    
+}
+
+.card__titulo {
+    color: rgb(138, 72, 9);
+    font-size: 50px;
+}
+
+.card__preco {
+    font-size: 35px;
+    color: rgb(211, 157, 77);
+}
+
+.card--escuro {
+    height: 20%;
+    width: 30%;
+    background-color: rgb(55, 36, 13);
+    margin-top: 10%;
+    gap: 10px;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.card__titulo--escuro {
+    color: rgb(254, 220, 118);
+    font-size: 50px;
+}
+
+.card__preco--escuro {
+    font-size: 35px;
+    color: rgb(211, 157, 77);
+}
+
+img {
+    width: 30%;
+    border: 10px solid rgb(184, 144, 70);
+    margin: 20px;
+}
+
+.card__botao {
+    width: 20%;
+    background-color: rgb(119, 74, 42);
+    color:antiquewhite;
+    border-radius: 15%;
+}
+
+.card__botao:hover {
+    background-color: bisque;
+    color: rgb(165, 99, 42);
+    transition: 0.8s;
+}
+
+.card__botao--escuro {
+    width: 20%;
+    background-color:  bisque;
+    color:rgb(101, 76, 42);
+    border-radius: 15%;
+}
+
+.card__botao--escuro:hover {
+    background-color: rgb(165, 99, 42);
+    color: bisque;
+    transition: 0.8s;
+}
