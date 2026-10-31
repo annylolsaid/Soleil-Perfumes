@@ -1,0 +1,24 @@
+Classe e o que representam
+.header__titulo: Título da loja
+
+.header__item: Links do menu
+
+.container: Container que organiza os cards
+
+.card: Card de perfume com fundo claro
+
+.card__titulo: Nome do perfume no card claro
+
+.card__preco: Preço do perfume no card claro
+
+.card--escuro: Card de perfume com fundo escuro
+
+.card__titulo--escuro: Nome do perfume no card escuro
+
+.card__preco--escuro: Preço do perfume no card escuro
+
+.card__botao: Botão do card claro
+
+.card__botao--escuro: Botão do card escuro
+
+.img: Imagens dos perfumes
