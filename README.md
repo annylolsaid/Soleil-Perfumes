@@ -84,14 +84,6 @@ A versão normal utiliza cores claras, enquanto a versão escura utiliza um fund
 
 Também foram criados estados ":hover" para os links e botões, proporcionando uma mudança visual quando o usuário passa o mouse sobre eles.
 
-
-**Como abrir o projeto**
-
-1. Baixe ou clone o repositório do projeto.
-2. Abra a pasta do projeto.
-3. Abra o arquivo "index.html" em um navegador.
-4. O arquivo "style.css" será carregado automaticamente pelo HTML.
-
 **Tecnologias utilizadas**
 
 - HTML5
