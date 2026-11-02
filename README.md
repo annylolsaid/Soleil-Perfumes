@@ -35,28 +35,8 @@ Os principais componentes compostos são:
 Card de produto
 O card reúne vários elementos, como imagem, título, preço e botão de detalhes.
 
-Exemplo de estrutura:
-<section class="card">
-    <span>
-        <img class="card__img" src="..." alt="">
-        <h1 class="card__titulo">Aurora 200ml</h1>
-        <h3 class="card__preco">R$ 450,00</h3>
-    </span>
-    <button class="card__botao">Detalhar</button>
-</section>
-
 Cabeçalho
 O cabeçalho é composto pelo nome da marca e pelos links de navegação da página.
-
-<header>
-    <h1 class="header__titulo">Soleil Perfumes</h1>
-    <nav>
-        <a class="header__item" href="index.html">Início</a>
-        <a class="header__item" href="index.html">Sobre nós</a>
-        <a class="header__item" href="index.html">Fragrâncias</a>
-        <a class="header__item" href="index.html">Newsletter</a>
-    </nav>
-</header>
 
 **Padrão BEM**
 
